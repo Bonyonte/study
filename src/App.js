@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Routes, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/library" element={<News />} />
         <Route path="/comment" element={<Comment />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
