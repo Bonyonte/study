@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import News from './components/News';
+import Comment from './components/Comment';
 
 function App() {
   return (
