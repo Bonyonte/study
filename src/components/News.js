@@ -4,7 +4,7 @@ import '../App';
 
 const News = () => {
   return (
-    <div>News</div>
+    <div className="news-list">News</div>
   )
 }
 
