@@ -22,7 +22,7 @@ const Students = () => {
 
   return (
   <>
-    <div className="news-list">
+    <div className="students-list">
     {students.map(({first_name, last_name, email})=>(
       <div>
         {first_name}
