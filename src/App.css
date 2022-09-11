@@ -40,7 +40,7 @@
 }
 
 .news-details {
-  background-image: url(images/coronavirus-2.jpg);
+  background-image: url(images/large_lecture.jpg);
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -51,5 +51,6 @@
 .row1 h1{
   font-size: 3rem;
   padding-top: 150px;
-  color: white;
+  color: blueviolet;
+  padding-left: 80px;
 }

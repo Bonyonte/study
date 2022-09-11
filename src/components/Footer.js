@@ -4,7 +4,7 @@ import '../App';
 const Footer = () => {
   return (
     <div className="footer">
-        <p>Covid News App 2022&copy;</p>
+        <p>Moringa Class App 2022&copy;</p>
     </div>
   )
 }

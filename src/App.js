@@ -4,7 +4,7 @@ import { Routes, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import News from './components/News';
+import Students from './components/Students';
 import Comment from './components/Comment';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Routes>
       <Route path="/" element={<Home />} />
-        <Route path="/news" element={<News />} />
+        <Route path="/students" element={<Students />} />
         <Route path="/comment" element={<Comment />} />
       </Routes>
       <Footer />

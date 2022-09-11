@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App';
 
-function NewsDetails({path, title, excerpt, webUrl, originalUrl, heat, tags, images, content}) {
+function StudentsDetails({first_name, last_name, gender, email}) {
     const [actualDetails, setActualDetails] = useState(false);
 
     const handleClick = () =>{
@@ -9,10 +9,10 @@ function NewsDetails({path, title, excerpt, webUrl, originalUrl, heat, tags, ima
     }
     console.log(news);
   return (
-    <div>NewsDetails</div>
+    <div>StudentsDetails</div>
   )
 }
 
 
-export default NewsDetails
+export default StudentsDetails
 
