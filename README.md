@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+STUDY WEBSITE By -Godfrey Magogo Bonyonte
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Screenshot
 
-## Available Scripts
+![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-53-39.png)
+![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-53-33.png)
+![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-54-01.png)
 
-In the project directory, you can run:
 
-### `npm start`
+Table Of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Features
 
-### `npm test`
+-Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Tecnology Used
 
-### `npm run build`
+-Live Link
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Licence
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Author's Info
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Description 
+This platform is allows one see the registered number of students in a certain school so that as a parent you can be able to understand different teachers and their lessons in that institution. In future, the platform will allow students, teachers to login and register. 
 
-### `npm run eject`
+Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As a user of this programm you will be able to :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+See a an encouraging quote at home page.
+See a nav bar that has different components.
+By clicking the student component, you will be able to see diffent students with their details.
+Also the teacher component in the nav bar will show you different teachers in that school .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Requirement
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Access to a computer Access to internet A VS Code editor Clone to your computer and run rake server for backend to start and npm start for frontend.
 
-## Learn More
+Technology Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React - Which was used to develop the frontend structure of the page. 
+Ruby - Which was used to seed and develop database for backend.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Frontend Link - https://github.com/Bonyonte/study
+Backend Link - https://github.com/Bonyonte/phase-3-sinatra-react-project
 
-### Code Splitting
+LIcence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+MIT License Copyright (c) [2019] [Godfrey Bonyonte] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author's Info Email - godfrey.magogo@student.moringaschool.com
