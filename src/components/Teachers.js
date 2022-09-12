@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../App';
+import TeachersDetails from './TeachersDetails';
 
 function Teachers() {
 
@@ -20,9 +21,13 @@ function Teachers() {
   return (
     <>
     <div className="container">
-    {teachers.map(({teacher_name})=>(
+    {teachers.map((teacher)=>(
       <div>
-        {teacher_name}
+        <TeachersDetails
+        teacherImage={teacher.teacher_image}
+        teacherName={teacher.teacher_name}
+        teacherEmail={teacher.teacher_email}
+        />
         </div>
         ))}
     </div> 

@@ -1,15 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../App';
 
-function StudentsDetails({first_name, last_name, gender, email}) {
-    const [actualDetails, setActualDetails] = useState(false);
+function StudentsDetails({studentImage, firstName, lastName, gender, email}) {
 
-    const handleClick = () =>{
-        setActualDetails(actual=> !actual)
-    }
-    console.log(news);
+    
+    // console.log(news);
   return (
-    <div>StudentsDetails</div>
+    <div className="student">
+      <img src={studentImage} alt="STUDENT" />
+      <div>
+          <p><span>FirstName:</span> {firstName}</p>
+          <p><span>SurName: </span>{lastName}</p>
+          <p><span>Gender: </span>{gender}</p>
+          <p><span>Email:</span>{email}</p>
+      </div>
+      </div>
   )
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import '../App';
-import NewsDetails from './StudentsDetails';
+import StudentsDetails from './StudentsDetails';
 
 
 const Students = () => {
@@ -18,16 +18,24 @@ const Students = () => {
     useEffect(() => {
        fetchData(); 
     }, []);
-    console.log(students)
+    // console.log(students)
 
   return (
+    // <div>
+    //   {
+    //     students.map((student))
+    //   }
+    // </div>
   <>
     <div className="students-list">
-    {students.map(({first_name, last_name, email})=>(
+    {students.map((student)=>(
       <div>
-        {first_name}
-        {last_name}
-        {email}
+       <StudentsDetails
+       studentImage={student.student_image}
+       firstName={student.first_name}
+       lastName={student.last_name}
+       gender={student.gender}
+       email={student.email}/>
       </div>
     ))}
     </div>

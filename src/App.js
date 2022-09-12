@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Teacher.css';
+import './Student.css';
 import { Routes, Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
