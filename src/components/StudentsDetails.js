@@ -6,7 +6,7 @@ function StudentsDetails({studentImage, firstName, lastName, gender, email}) {
     
     // console.log(news);
   return (
-    <div className="student">
+    <><div className="student">
       <img src={studentImage} alt="STUDENT" />
       <div>
           <p><span>FirstName:</span> {firstName}</p>
@@ -15,6 +15,12 @@ function StudentsDetails({studentImage, firstName, lastName, gender, email}) {
           <p><span>Email:</span>{email}</p>
       </div>
       </div>
+      <div className="keys">
+        <input type="button" value="Update" /> 
+        <input type="button" value="Delete" /> 
+      </div>
+      </>
+    
   )
 }
 
