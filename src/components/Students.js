@@ -20,6 +20,12 @@ const Students = () => {
     }, []);
     // console.log(students)
 
+    const deleteStudents = (deleteStudents) =>{
+      const updated = students.filter((student)=>{
+        student.id !== deleteStudents.id 
+        students(updated)
+      })
+    }
   return (
     // <div>
     //   {
@@ -35,7 +41,10 @@ const Students = () => {
        firstName={student.first_name}
        lastName={student.last_name}
        gender={student.gender}
-       email={student.email}/>
+       email={student.email}
+       onDeleteStudent={deleteStudents}
+       student = {student}
+       id = {student.id}/>
       </div>
     ))}
     </div>

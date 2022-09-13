@@ -1,10 +1,17 @@
 import React from 'react';
 import '../App';
 
-function StudentsDetails({studentImage, firstName, lastName, gender, email}) {
+function StudentsDetails({id, student, onDeleteStudent, studentImage, firstName, lastName, gender, email}) {
 
-    
-    // console.log(news);
+  function handleDeleteClick() {
+    fetch(`http://localhost:9292/students/${id}`, {
+      method: "DELETE",
+    })
+      .then((resp) => resp.json())
+      .then(() => onDeleteStudent(student));
+      console.log(student);
+  }
+     
   return (
     <><div className="student">
       <img src={studentImage} alt="STUDENT" />
@@ -17,7 +24,7 @@ function StudentsDetails({studentImage, firstName, lastName, gender, email}) {
       </div>
       <div className="keys">
         <input type="button" value="Update" /> 
-        <input type="button" value="Delete" /> 
+        <input onClick = {handleDeleteClick} type="button" value="Delete" /> 
       </div>
       </>
     
