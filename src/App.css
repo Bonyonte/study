@@ -58,3 +58,8 @@
 span{
   color: blueviolet
 }
+
+input:hover{
+  cursor: pointer;
+  background-color: yellow;
+}
