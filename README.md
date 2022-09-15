@@ -1,10 +1,8 @@
 STUDY WEBSITE By -Godfrey Magogo Bonyonte
 
-Screenshot
-
-![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-53-39.png)
-![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-53-33.png)
-![images](/library-frontend/src/images/Screenshot%20from%202022-09-12%2023-54-01.png)
+![images](/src/images/Screenshot%20from%202022-09-12%2023-53-39.png)
+![images](/src/images/Screenshot%20from%202022-09-12%2023-53-33.png)
+![images](/src/images/Screenshot%20from%202022-09-12%2023-54-01.png)
 
 
 Table Of Content
