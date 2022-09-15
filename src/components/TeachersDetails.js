@@ -1,6 +1,12 @@
 import React from 'react'
 
-function TeachersDetails({ teacherImage, teacherName, teacherEmail }) {
+function TeachersDetails({ teacher, id, onDeleteTeacher, teacherImage, teacherName, teacherEmail }) {
+
+  function handleDeleteClick() {
+    fetch(`http://localhost:9292/teachers/${id}`, {
+      method: "DELETE",
+    }).then(() => onDeleteTeacher(teacher));
+  }
   return (
     <>
       <div className="teacher">
@@ -12,7 +18,7 @@ function TeachersDetails({ teacherImage, teacherName, teacherEmail }) {
       </div>
       <div className="button">
         <input type="button" value="Update" /> 
-        <input type="button" value="Delete" /> 
+        <input onClick = {handleDeleteClick} type="button" value="Delete" /> 
       </div>
       
     </>

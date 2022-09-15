@@ -18,6 +18,11 @@ function Teachers() {
        fetchData(); 
     }, []);
     console.log(teachers)
+
+    function deleteTeachers(deleteTeachers){
+      const updatedTeachers = teachers.filter((teacher)=>teacher.id !== deleteTeachers.id)
+        setTeachers(updatedTeachers)
+    }
   return (
     <>
     <div className="container">
@@ -27,6 +32,9 @@ function Teachers() {
         teacherImage={teacher.teacher_image}
         teacherName={teacher.teacher_name}
         teacherEmail={teacher.teacher_email}
+        onDeleteTeacher={deleteTeachers}
+       teacher = {teacher}
+       id = {teacher.id}
         />
         </div>
         ))}
