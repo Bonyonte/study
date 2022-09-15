@@ -6,10 +6,8 @@ function StudentsDetails({id, student, onDeleteStudent, studentImage, firstName,
   function handleDeleteClick() {
     fetch(`http://localhost:9292/students/${id}`, {
       method: "DELETE",
-    })
-      .then((resp) => resp.json())
-      .then(() => onDeleteStudent(student));
-      console.log(student);
+    }).then(() => onDeleteStudent(student));
+      // console.log('.. student ..', student);
   }
      
   return (

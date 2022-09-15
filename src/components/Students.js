@@ -20,18 +20,11 @@ const Students = () => {
     }, []);
     // console.log(students)
 
-    const deleteStudents = (deleteStudents) =>{
-      const updated = students.filter((student)=>{
-        student.id !== deleteStudents.id 
-        students(updated)
-      })
+    function deleteStudents(deleteStudents){
+      const updatedStudents = students.filter((student)=>student.id !== deleteStudents.id)
+        setStudents(updatedStudents)
     }
   return (
-    // <div>
-    //   {
-    //     students.map((student))
-    //   }
-    // </div>
   <>
     <div className="students-list">
     {students.map((student)=>(
