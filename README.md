@@ -24,6 +24,7 @@ Table Of Content
 -Author's Info
 
 Description 
+
 This platform is allows one see the registered number of students in a certain school so that as a parent you can be able to understand different teachers and their lessons in that institution. In future, the platform will allow students, teachers to login and register. 
 
 Features
